@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+.main {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: black; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('asset\\daniel-leone-g30P1zcOzXo-unsplash.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('asset\\derrick-cooper-L505cPnmIds-unsplash.jpg');
+    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('asset\\marita-kavelashvili-ugnrXk1129g-unsplash.jpg'); */
+    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('asset\\bg1 (1).jpg'); */
+    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('asset\\bg1 (3).jpg'); */
+    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('asset\\bg1 (4).jpg'); */
+    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('asset\\bg1 (5).jpg'); */
+    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('asset\\bg2.jpg'); */
+
+
+
+
+    background-size: cover;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    font-size: 1.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.main .nav
+{
+    color: salmon;
+    width: 100%;
+    height: 5vh;
+    border-bottom: 2px solid grey;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 2vw;
+    margin: 0 1vw;
+    overflow: hidden;
+    font-family: roboto;
+}
+
+.main .nav .nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.main .nav .nav-logo .logo-circle{
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50%;
+    background-color: red;
+    margin: 1vw;
+}
+
+.main .nav .nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    font-style: italic;
+   
+
+}
+.main .nav .nav-menu p{
+    color: salmon;
+}
+.main .nav .nav-menu p:hover{
+    color: red;
+}
+.details{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    /* background-color: red; */
+    height: 80vh;
+    margin: 0 2vw;
+    
+}
+.details h1{
+    font-size: 6vw;
+    font-family: popin;
+    color: whitesmoke;
+}
+.details h1 span{
+    color: salmon;
+    
+}
+.details #p-2{
+    color: salmon;
+    font-weight: 500;
+    font-size: 3vw;
+}
+.details p{
+    font-size: 2vw;
+    font-style: italic;
+    font-family: roboto;
+}
